@@ -13,5 +13,29 @@
   "devDependencies": {
     "bun-types": "^1.0.0",
     "typescript": "^5.3.0"
-  }
+  },
+  "license": "MIT",
+  "keywords": [
+    "ai-agents",
+    "observability",
+    "monitoring",
+    "health-checks",
+    "alerting",
+    "metrics",
+    "dashboard"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Retsumdk/agent-observability-dashboard.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./dist/dashboard.js",
+  "types": "./dist/dashboard.d.ts"
 }
